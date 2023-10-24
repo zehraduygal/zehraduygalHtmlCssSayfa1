@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2? family= EB+Garamond:wght@400;500;600;800 & family= Open+Sans:wght@300 & family= Roboto+ Yoğunlaştırılmış:wght@300;400 & family= Roboto:ital,wght@0,400;0,700;1,100;1,400 & display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        body{
+            font-family:Inter;
+            color: whitesmoke;
+            
+        }
+        body{
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+        }
+        .one{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin: 10px;
+            transition: 0.5s;
+           
+        }
+        .one:hover {
+            transform: scale(1.2);
+            background: black;
+            z-index: 2;
+        }
+        .one:hover {
+            filter: drop-shadow(10px 10px 10px rgb(214, 170, 170));
+
+        }
+        .profile{
+            width: 550px;
+        }
+        .main{
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        .profile h1{
+            font-size: 75px;
+            text-transform: capitalize;
+            text-shadow:2px 3px 1px rgb(83, 10, 77);
+            margin-top: 20px;
+
+        }
+        .meslek{
+            letter-spacing: 3px;
+            font-size: 30px;
+
+        }
+        span{
+            background-color: black;
+        }
+        .tanıtım{
+            letter-spacing: 1px;
+            line-height: 30px;
+            margin-bottom: 45px;
+        }
+        .title{
+           font-weight: 700;
+           font-size: 1.5rem;
+           text-transform: uppercase;
+           margin-left: 5rem;
+           margin-top: 2rem;
+        }
+
+        .list{
+            margin-top: 1rem;
+            margin-left: 6rem;
+            line-height: 2;
+        }
+
+        .bolum1{
+            margin-bottom: 300px;
+        }
+        
+        .group2{
+            
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            text-align: center;
+            position: absolute;
+            bottom: 120px;
+            line-height: 2;
+            
+        }
+        
+        .group3{
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            text-align: center;
+            position: absolute;
+            bottom: 120px;
+            left:500px ;
+            line-height: 2;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="hakkımda"></section>
+    <div class="main">
+        <img class="one" src="./profil.jpg" alt="Zehra Duygal">
+        <div class="profile">
+            <h1>Zehra Duygal</h1>
+            <p class="meslek"> <span>Üniversite Öğrencisi</span></p>
+            <p class="tanıtım">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus veniam esse enim distinctio cum? Accusantium quis in maiores aliquid quas, architecto eligendi ratione soluta magnam molestiae quaerat. Dicta, incidunt consequuntur?</p>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="bolum1">
+            <div class="skills">
+                <h3 class="title">BECERİLER</h3>
+                <ul class="list">
+                    <li>Proje Yönetimi</li>
+                    <li>Takım Oyuncusu</li>
+                    <li>İkna Becerisi</li>
+                    <li>Analitik Düşünme</li>
+                </ul>
+            </div>
+        </div>
+        <div class="group2">
+            <div class="ikiozellik">
+                <h3 class="twotitle">EĞİTİMLER</h3>
+                <p>2017-2020 Lise/EA/Sirac Koleji</p>
+                <p>2020-2024 Lisans/Yönetim Bilişim Sistemleri</p>
+            </div>
+        </div>
+        <hr class="three">
+        <div class="3bolum">
+            <div class="group3">
+                <div class="ucozellik">
+                    <h3 class="threetitle">İLETİŞİM</h3>
+                    <p>Email   zehra@gmail.com</p>
+                    <p>telefon  +90 000 000 00 00</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
